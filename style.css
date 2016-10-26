@@ -1,0 +1,174 @@
+.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 40px;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 10px 5px 0px 15px;
+}
+
+#left {
+    margin-left: 980px;
+    margin-bottom: 8px;
+}
+
+#title {
+    color: #7BC4B5;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.wrapper {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.banner {
+    width: 100%;
+    length: auto;
+}
+
+.info {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.footer {
+    width: 100%;
+    min-height: 40px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.subway {
+    position: relative;
+    width: 100%:
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #404040;
+}
+
+a:hover {
+    color: #7BC4B5;
+}
+
+p {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: .96em;
+    bottom: 28.18em;
+    color: #404040;
+    letter-spacing: 0.34em;
+}
+
+#p1 {
+    left: 16.8em;
+}
+
+#p2 {
+    left: 29.8em;
+}
+
+#p3 {
+    left: 47.88em;
+}
+
+#p4 {
+    left: 62.8em;
+}
+
+#p5 {
+    left: 79.26em;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #banner {
+        width: 740px;
+    }
+    .subway {
+        max-width: 740px;
+        max-height: 222px;
+    }
+    #main {
+        width: 740px;
+    }
+    #main-content {
+        width: 450px;
+        float: left;
+    }
+    #widget-container {
+        width: 200px;
+        float: right;
+    }
+    .widget-content {
+        width: 160px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    #banner {
+        width: 450px;
+    }
+    .subway {
+        max-width: 450px;
+        max-height: 135px;
+    }
+    #main {
+        width: 450px;
+    }
+    #main-content {
+        width: 400px;
+    }
+    #widget-container {
+        width: 400px;
+    }
+    .widget-content {
+        width: 120px;
+        margin: 5px;
+        float: left;
+    }
+    .widget-text {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    #banner {
+        width: 275px;
+    }
+    .subway {
+        max-width: 275px;
+        max-height: 83px;
+    }
+    #main {
+        width: 250px;
+    }
+    #main-content {
+        width: 250px;
+        padding: 0px;
+    }
+    #widget-container {
+        width: 250px;
+        padding: 0px;
+    }
+    .widget-content {
+        width: 250px;
+        margin: 5px;
+    }
+    .widget-text {
+        display: none;
+    }
+}
